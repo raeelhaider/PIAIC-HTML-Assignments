@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact_html
+        </title>
+
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        
+        <style>           
+            .menu 
+            {
+                display:inline-block;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                padding-left: 150px;
+            }
+            
+            .main
+            {
+                display: inline-block;
+                background-color: greenyellow;
+                font-family: 'Luckiest Guy', cursive;
+                border: 1px solid black;
+                border-radius:20px;
+                padding-left: 50px;
+                margin-left:30px;
+                width:1000px;
+                height:120px;
+            }
+
+            .button 
+            {
+                 display: inline-block; 
+                 padding: 5px 10px;
+                 cursor: pointer;
+                 background-color: transparent;
+                 color: black;
+                 font-size: small;
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 font-weight: bold;
+                 border: 1px solid transparent;
+                 border-radius: 2px;
+            }
+
+            button:hover
+            {
+                background-color: white;
+            }
+
+            .a 
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                text-align: justify;
+                
+                    
+            }
+            
+            .b
+            {
+                display: inline-block;
+                background-color: greenyellow;
+                border: 1px solid black;
+                border-radius:25px;
+                margin-left: 20px;
+                width:1000px;
+                height:500px;
+
+            }
+            
+            .c
+            {
+             display: inline-block;
+             background-color: greenyellow;   
+             text-align: center;
+             font-family: 'Times New Roman', Times, serif;
+             border: 1px solid black;
+             border-radius: 25px;
+             margin-left: 10px;
+             width: 1000px;
+             height:50px;
+            }
+
+            
+
+           
+        </style>
+        
+    </head>
+
+    <body>
+        
+       <span class=main>
+            <h1>
+            PanaCloud
+            </h1> 
+        <span> 
+
+           
+        
+        <span class=menu>
+            <a href="home.html"> 
+                <button class=button>
+                    HOME
+                </button>
+            </a>    
+        </span>
+        
+        <span class=menu>
+            <a href="about.html"> 
+                <button class=button>
+                    ABOUT
+                </button>
+            </a>    
+        </span>
+        
+        <span class=menu>
+            <a href="portfolio.html"> 
+                <button class=button>
+                    PORTFOLIO
+                </button>
+            </a>    
+        </span>
+        
+        <span class=menu> 
+            <a href="contact.html">               
+                <button class=button>
+                    CONTACT
+                </button>
+            </a>    
+        </span>
+            
+        
+        <br/> 
+        <br/>
+        <br/>
+          
+        
+        <form class=a>
+        <fieldset> 
+            <legend>Your Details</legend>
+            <p>
+                Name:
+                <input type=text name="firstname" size=13 maxlength=30 required>
+                <br/>
+                <br/>
+                Email:
+                <input type=text name="email" size=13 maxlength=30 required>
+            </p>
+        </fieldset>
+    
+        <fieldset>
+            <legend> Your Review: </legend>
+            <p>
+                How did you hear about us?
+                <select name="Website">
+                    <option value="Google">Google</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Facebook">Facebook</option> 
+    
+                </select>
+            </p>
+                <p> Would you visit again ?
+                    <br/>
+                    <!----- Here we have used name as visit so the button could not be checked in twice------->
+                <label><input type="radio" name="visit" value="y"> Yes </label>
+                <label><input type="radio" name="visit" value="n"> No </label>
+                <label><input type="radio" name="visit" value="mb"> Maybe </label>
+                </p>
+    
+                <p>
+                    Comments:
+                </p>
+                <textarea name="comments" rows="4" cols="30"> Enter your comments </textarea>
+    
+    
+    
+                <p>
+                    
+                    <input type="checkbox" name="updates" value="cun" checked>
+                    Sign me up for email updates 
+                    
+                    <br/>
+                    <br/>
+                    <input type="Submit" value="Submit Review"/>
+                </p>
+            
+        </fieldset>
+        </form>
+
+        <br/> <br/> <br/> <br/> <br/> <br/>
+            
+            <center><img src="Down_Arrow.jpg" alt="Downarrow" title="Down_arrow Picture" width=100px height=100px/> </center
+        
+        <br/> <br/> <br/>
+
+           <center> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14480.296980633188!2d67.0733868!3d24.8613137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91c53ba630675f8!2sPresidential%20Initiative%20for%20Artificial%20Intelligence%20and%20Computing%20(PIAIC)%20Headquarters!5e0!3m2!1sen!2s!4v1611484380891!5m2!1sen!2s" width="600" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe> </center>
+ 
+           
+           <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+           <span class=c>
+
+            <p> Copyright &copy;2019. All rights reserved.</p>
+      
+      </span> 
+           
+    </body>
+</html>

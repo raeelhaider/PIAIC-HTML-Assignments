@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Assignment No.7
+        </title>
+    </head>
+</html>
+<body>
+    <h1> Chapter # 7 - Forms</h1>
+    <form>
+    <fieldset> 
+        <legend> Your Details</legend>
+        <p>
+            Name:
+            <input type=text name="firstname" size=13 maxlength=30 required>
+            <br/>
+            <br/>
+            Email:
+            <input type=text name="email" size=13 maxlength=30 required>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend> Your Review: </legend>
+        <p>
+            How did you hear about us?
+            <select name="Website">
+                <option value="Google">Google</option>
+                <option value="Youtube">Youtube</option>
+                <option value="Facebook">Facebook</option> 
+
+            </select>
+        </p>
+            <p> Would you visit again ?
+                <br/>
+                <!----- Here we have used name as visit so the button could not be checked in twice------->
+            <label><input type="radio" name="visit" value="y"> Yes </label>
+            <label><input type="radio" name="visit" value="n"> No </label>
+            <label><input type="radio" name="visit" value="mb"> Maybe </label>
+            </p>
+
+            <p>
+                Comments:
+            </p>
+            <textarea name="comments" rows="4" cols="30"> Enter your comments </textarea>
+
+
+
+            <p>
+                
+                <input type="checkbox" name="updates" value="cun" checked>
+                Sign me up for email updates 
+                
+                <br/>
+                <br/>
+                <input type="Submit" value="Submit Review"/>
+            </p>
+        
+    </fieldset>
+    </form>
+</body>
